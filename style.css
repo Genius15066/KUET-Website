@@ -1,0 +1,155 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.faculty-institute,.about-kuet,.event,.information{
+    padding:20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.09);
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.header-top{
+    padding:15px 20px 30px 20px;
+    background-color: #007B5E;
+    color:white;
+    font-family: 'Verdana', sans-serif;
+    margin-bottom: 2px;
+   
+}
+.varsity-name{
+    font-size: 25px;
+    color: #FBFBFB;
+    text-shadow: 2px 2px black;
+}
+ 
+
+
+/* navbar starts here? */
+.toggler{
+    color:grey;
+    background-color:white ;
+    padding:5px 8px;
+    border-radius: 5px;
+    outline: none;  
+}
+.toggler-area{
+    margin-left:auto;
+}
+.navbar-area{
+    background-color: #156748;
+    
+}
+.navbar-nav>li{
+    padding:0px 10px;
+    text-align: right;
+}
+.navbar-nav li a{
+    color:white;
+    font-weight: 100;
+    font-size: 14px;
+}
+
+.dropdown-menu{
+    background-color: white;
+    
+}
+.dropdown-menu li{
+    text-align: left;
+}
+.dropdown-menu li a{
+    color:blue;
+    font-size: 12px;
+}
+.dropdown-menu li :hover{
+    background-color: #e4ebe9;
+    opacity: .9;
+}
+#scrolling-text{
+    background-color: rgba(78, 78, 245, 0.219);
+}
+marquee > a{
+    color:#008B8B;
+    text-decoration: none;
+}
+
+/* carousel starts */
+
+.carousel-item img {
+    height:415px;
+    border-radius: 5px;
+}
+.short-description,.vc-message>p{
+    font-size: 14px;
+    text-align: justify;
+}
+.vc-message>img{
+    float:left;
+    padding:5px
+}
+.vc-message{
+    background-color: rgba(78, 78, 245, 0.219);
+    padding:10px 10px 35px 10px;
+    border-radius: 5px;
+}
+/* faculty-institute section starts */
+.faculty-institute{
+    font-family: 'Times New Roman', Times, serif;
+}
+.faculty,.institute{
+    list-style-type: none;
+    background-color: #E6F0FA;
+    margin-top: 10px;
+    padding: 8px;
+}
+
+.institute{
+    text-align: right;
+}
+
+.card{
+    padding:10px;
+    background-color: #249788;
+    font-size: 15px;
+    border-radius: 0px;
+    text-transform: uppercase;
+    height:80px;
+    color:white;
+    text-shadow: 2px 2px 5px black;
+
+}
+
+/* links section start */
+.links{
+    background-color: #007B5E;
+    padding:15px;
+    line-height:1.8;
+}
+
+.links h4{
+    border-bottom: 3px solid #eeeeee;
+    font-size: 18px;
+    margin: 10px 0px;
+    padding-bottom: 6px;
+}
+.link-list li{
+    font-size: 14px;
+}
+.link-list li i{
+    margin-right: 5px;
+}
+
+/* footer style */
+footer{
+    background-color:#156748;
+    padding:10px 15px;
+}
+footer h5{
+    color: #e7d5d5;
+    border-bottom: 2px solid #e7d5d5;
+    font-size: 14px;
+    text-align:center;
+}
